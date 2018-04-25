@@ -23,7 +23,7 @@ public class DogfightController implements IOrderPerformer {
 
 	
 	public void play() {
-		
+		gameLoop();
 	}
 	
 	public void setViewSystem(IViewSystem viewSystem) {
@@ -35,6 +35,10 @@ public class DogfightController implements IOrderPerformer {
 	}
 	
 	private void gameLoop() {
+		do {
+			
+		}
+		while(isPlayer = true) ;
 		
 	}
 	
