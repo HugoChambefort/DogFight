@@ -4,8 +4,13 @@ import java.awt.Graphics;
 import java.util.Observable;
 import java.util.Observer;
 
+import jpu2016.dogfight.view.GraphicsBuilder;
+
 public class GamePanel implements Observer {
 
+	private GraphicsBuilder graphicsBuilder;
+	
+	
 	public GamePanel(IGraphicsBuilder graphicsBuilder) {
 		
 	}
